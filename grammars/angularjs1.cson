@@ -1,9 +1,9 @@
-'scopeName': 'text.todo'
-'name': 'TODO'
-'injectionSelector': 'comment, text.plain'
+'scopeName': 'text.angularjs1'
+'name': 'angularjs1'
+'injectionSelector': 'any'
 'patterns': [
   {
-    'match': '(?<!\\w)@?(TODO|FIXME|CHANGED|XXX|IDEA|HACK|NOTE|REVIEW|NB)\\b'
+    'match': '(ng-repeat|ng-if)'
     'name': 'storage.type.class.${1:/downcase}'
   }
   {
